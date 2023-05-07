@@ -6,7 +6,7 @@ function IndexPage() {
       <Head>
         <title>GitHub Repo</title>
       </Head>
-      <p>Author: Mateus Borges</p>
+      <p>&copy; Mateus Borges</p>
     </div>
   );
 }
