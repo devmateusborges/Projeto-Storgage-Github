@@ -8,7 +8,7 @@ O projeto consiste em uma página inicial que permite que o usuário adicione no
 
 O usuário pode clicar em qualquer um dos repositórios exibidos para ver mais informações, como a descrição do projeto, a quantidade de estrelas e forks e a data da última atualização. Também é possível clicar para ir diretamente para a página do repositório no Github.
 
-<h2>Página de detalhes do repositório</<h2>
+<h2>Página de detalhes do repositório</h2>
 
 Os nomes dos usuários adicionados são salvos no localStorage do navegador, permitindo que o usuário acesse rapidamente os repositórios de seus usuários favoritos sem precisar adicioná-los novamente.
 
