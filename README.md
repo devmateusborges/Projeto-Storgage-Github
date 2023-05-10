@@ -1,34 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1>Projeto Github Repository Viewer</h1>
+Este é um projeto desenvolvido em Next.js 13, TypeScript e Tailwind CSS que utiliza a API do Github para exibir repositórios de usuários adicionados pelo usuário através do localStorage do navegador.
 
-## Getting Started
+<h2>Funcionamento</h2>
+O projeto consiste em uma página inicial que permite que o usuário adicione nomes de usuários do Github através de um formulário. Em seguida, a aplicação faz uma consulta à API do Github e exibe os repositórios públicos do usuário adicionado.
 
-First, run the development server:
+<h2>Página inicial</h2>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+O usuário pode clicar em qualquer um dos repositórios exibidos para ver mais informações, como a descrição do projeto, a quantidade de estrelas e forks e a data da última atualização. Também é possível clicar para ir diretamente para a página do repositório no Github.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h2>Página de detalhes do repositório</<h2>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Os nomes dos usuários adicionados são salvos no localStorage do navegador, permitindo que o usuário acesse rapidamente os repositórios de seus usuários favoritos sem precisar adicioná-los novamente.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+ <ul>
+<li>Tecnologias utilizadas</li>
+<li>Next.js 13</li>
+<li>TypeScript/li>
+<li>Tailwind CSS</li>
+<li>API do Github</li>
+<li>Como executar o projeto</li>
+</ul>
 
-## Learn More
+<h2>Deploy</h2>
+O projeto está hospedado na plataforma Vercel e pode ser acessado em https://github-repo-seven.vercel.app/.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<h2>Conclusão</h2>
+Este projeto demonstra a utilização do Next.js 13 com TypeScript e Tailwind CSS para criar uma aplicação web que utiliza a API do Github para exibir repositórios de usuários. O uso do localStorage do navegador permite que o usuário salve os nomes de seus usuários favoritos e acesse rapidamente seus repositórios.
